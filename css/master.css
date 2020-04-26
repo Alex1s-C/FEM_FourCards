@@ -1,0 +1,63 @@
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+#header, footer{
+  text-align: center;
+  margin: 3% auto;
+
+}
+
+.lightBlue{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.darkBlue{
+  font-weight: 900;
+  color:hsl(234, 12%, 34%);
+}
+
+.card{
+  padding: 1%;
+  height: 13.75rem;
+  box-shadow: 2px 2px 25px hsl(229, 6%, 66%);
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.cardBlue{
+border-top: 2px solid hsl(212, 86%, 64%);
+}
+
+.cardRed{
+border-top: 2px solid hsl(0, 78%, 62%);
+}
+
+.cardOrange{
+border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+.cardCyan{
+border-top: 2px solid hsl(180, 62%, 55%);
+}
+
+.card-body{
+margin: auto;
+}
+
+.logoSvg{
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+
+.innerCol {
+  padding: 0;
+}
+
+.innerCol .card {
+  margin: 2rem 0;
+}
